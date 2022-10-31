@@ -2,9 +2,9 @@
 
 ``docker build . -t magicli/docker222``
 
-// Run
+// Run(Optionally pull) 
 
-(Optionally pull) ``docker pull magicli/docker222``  
+``docker pull magicli/docker222``  
 ``docker run -d -p 8000:8000 magicli/docker222``
 
 //log example
